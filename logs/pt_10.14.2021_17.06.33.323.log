@@ -1,0 +1,439 @@
+do okt. 14 17:06:33 2021: Starting Cisco Packet Tracer 8.0.1.0064
+do okt. 14 17:06:33 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:06:33 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:06:34 2021: engine/util/AnalyticsTracker.cpp(106):INFO  - setUsername - setting GA channel to NETSPACE: UA-56074537-2
+do okt. 14 17:06:35 2021: Script Module starting: 
+do okt. 14 17:06:35 2021: Opening file: /Users/brian/Desktop/testpacketmap/teztmsmsmsms.pkt
+do okt. 14 17:06:36 2021: Changed device name:  to Server0
+do okt. 14 17:06:36 2021: Changed device name:  to Power Distribution Device0
+do okt. 14 17:06:36 2021: Script Module stopping: File
+do okt. 14 17:06:36 2021: Script Module starting: File
+do okt. 14 17:06:36 2021: File opened successfully.
+do okt. 14 17:06:36 2021: CPtmpServer started at port 39000
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.Marvel
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.PcSoftware
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+do okt. 14 17:06:36 2021: Script Module starting: net.netacad.cisco.resource
+do okt. 14 17:06:36 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:07:01 2021: Opening file: /Users/brian/Cisco Packet Tracer 8.0.1/saves/oefening 17.pkt
+do okt. 14 17:07:01 2021: Changed device name:  to PC0
+do okt. 14 17:07:01 2021: Changed device name:  to PC1
+do okt. 14 17:07:01 2021: Changed device name:  to PC2
+do okt. 14 17:07:01 2021: Changed device name:  to PC3
+do okt. 14 17:07:01 2021: Changed device name:  to PC4
+do okt. 14 17:07:01 2021: Changed device name:  to Server0
+do okt. 14 17:07:01 2021: Changed device name:  to Power Distribution Device0
+do okt. 14 17:07:01 2021: Changed device name:  to Printer0
+do okt. 14 17:07:01 2021: Changed device name:  to Router1
+do okt. 14 17:07:01 2021: Changed device name:  to Router2
+do okt. 14 17:07:01 2021: Changed device name:  to Router3
+do okt. 14 17:07:01 2021: Changed device name:  to Switch0
+do okt. 14 17:07:01 2021: Changed device name:  to Switch1
+do okt. 14 17:07:01 2021: Changed device name:  to Switch2
+do okt. 14 17:07:01 2021: Changed device name:  to Switch3
+do okt. 14 17:07:01 2021: Changed device name:  to PC5
+do okt. 14 17:07:01 2021: Router5: Router> enable
+do okt. 14 17:07:01 2021: Router5: Router# configure terminal
+do okt. 14 17:07:01 2021: Router4: Router> enable
+do okt. 14 17:07:01 2021: Router4: Router# configure terminal
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 172.16.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 172.16.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# shutdown
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router4: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router4: Router# configure terminal
+do okt. 14 17:07:01 2021: Router4: Router(config)# ip route 172.16.0.0 255.255.0.0 182.168.0.1
+do okt. 14 17:07:01 2021: Router4: Router(config)# ip route 172.16.0.0 255.255.0.0 192.168.0.1
+do okt. 14 17:07:01 2021: Router4: Router(config)# no ip route 172.16.0.0 255.255.0.0 182.168.0.1
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router> enable
+do okt. 14 17:07:01 2021: Router5: Router# configure terminal
+do okt. 14 17:07:01 2021: Router5: Router(config)# ip route 172.17.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# no ip address
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface FastEthernet0/1/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# no ip route 172.17.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# ip route 172.17.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router4: Router(config)# no ip route 172.16.0.0 255.255.0.0 192.168.0.1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# ip route 172.16.0.0 255.255.0.0 192.168.0.1
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router4: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router4: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router5: Router(config-if)# exit
+do okt. 14 17:07:01 2021: PC0: C:\> tracer 172.17.0.100
+do okt. 14 17:07:01 2021: PC0: C:\> tracer 172.17.0.100
+do okt. 14 17:07:01 2021: Router1: Router> enable
+do okt. 14 17:07:01 2021: Router1: Router# configure terminal
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 172.16.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 172.16.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 172.19.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 172.19.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# ip route 172.17.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router> enable
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.16.0.0 255.255.0.0 192.168.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router3: Router> enable
+do okt. 14 17:07:01 2021: Router3: Router# configure terminal
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.18.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.18.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# shutdown
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# no shutdown
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.18.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Switch2: Switch> enable
+do okt. 14 17:07:01 2021: Switch2: Switch# configure terminal
+do okt. 14 17:07:01 2021: Switch2: Switch(config)# interface FastEthernet0/8
+do okt. 14 17:07:01 2021: Router3: Router> enable
+do okt. 14 17:07:01 2021: Router3: Router# configure terminal
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router1: Router> enable
+do okt. 14 17:07:01 2021: Router1: Router# configure terminal
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router1: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router1: Router# configure terminal
+do okt. 14 17:07:01 2021: Router1: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router1: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router1: Router# configure terminal
+do okt. 14 17:07:01 2021: Router1: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router1: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router1: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router> enable
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router(config)# end
+do okt. 14 17:07:01 2021: Router2: Router# vlan database
+do okt. 14 17:07:01 2021: Router2: Router(vlan)# exit
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router1: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router1: Router(config)# ip route 172.18.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Switch2: Switch(config-if)# end
+do okt. 14 17:07:01 2021: Switch2: Switch# vlan database
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router2: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router2: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# ip route 172.17.0.0 255.255.0.0 172.18.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config)# no ip route 172.17.0.0 255.255.0.0 172.18.0.0
+do okt. 14 17:07:01 2021: Router1: Router(config)# no ip route 172.18.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router1: Router(config)# ip route 172.18.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/1
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# no ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config)# ip route 172.18.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router3: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config)# no ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.1
+do okt. 14 17:07:01 2021: Router3: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router3: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router3: Router# configure terminal
+do okt. 14 17:07:01 2021: Router3: Router(config)# no ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config)# no ip route 172.18.0.0 255.255.0.0 192.168.0.2
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.18.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# no ip route 172.18.0.0 255.255.0.0 172.18.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.1
+do okt. 14 17:07:01 2021: Router2: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router2: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router(config)# ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router3: Router(config-router)# network 172.16.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router2: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router2: Router(config)# no ip route 172.18.0.0 255.255.0.0 172.17.0.0
+do okt. 14 17:07:01 2021: Router2: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router2: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router2: Router# configure terminal
+do okt. 14 17:07:01 2021: Router3: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router3: Router# configure terminal
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.2 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.2 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# interface GigabitEthernet0/0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# ip address 172.17.0.1 255.255.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-if)# exit
+do okt. 14 17:07:01 2021: Router3: Router(config)# router rip
+do okt. 14 17:07:01 2021: Router3: Router(config-router)# no network 172.16.0.0
+do okt. 14 17:07:01 2021: Router3: Router(config-router)# end
+do okt. 14 17:07:01 2021: Router3: Router# configure terminal
+do okt. 14 17:07:01 2021: Script Module stopping: File
+do okt. 14 17:07:01 2021: Script Module starting: File
+do okt. 14 17:07:01 2021: File opened successfully.
+do okt. 14 17:07:01 2021: Saving options...
+do okt. 14 17:07:01 2021: Options saved.
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cOpenHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cClosedHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cConnect.svg, Offset: 5 x 5, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cTargetX.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddDevice.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cInspect.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddPacket.svg, Offset: 5 x 5, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cResize.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cPencil.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:33 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cDrawingcross.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+do okt. 14 17:07:37 2021: Link created: Router1 GigabitEthernet0/1/0 to Router3 GigabitEthernet0/1/0, 8103
+do okt. 14 17:07:43 2021: Router1: Router> enable
+do okt. 14 17:07:43 2021: Router1: Router# configure terminal
+do okt. 14 17:07:43 2021: Router1: Router(config)# interface GigabitEthernet0/1/0
+do okt. 14 17:07:47 2021: Router1: Router(config-if)# no shutdown
+do okt. 14 17:07:53 2021: Router1: Router(config-if)# ip address 192.168.0.2 255.255.255.0
+do okt. 14 17:07:56 2021: Router1: Router(config-if)# ip address 192.168.0.4 255.255.255.0
+do okt. 14 17:07:58 2021: Router1: Router(config-if)# ip address 192.168.0.3 255.255.255.0
+do okt. 14 17:08:00 2021: Router1: Router(config-if)# ip address 192.168.0.3 255.255.255.0
+do okt. 14 17:08:00 2021: Router1: Router(config-if)# exit
+do okt. 14 17:08:28 2021: Router1: Router(config)# ip route 172.18.0.0 255.255.0.0 192.168.0.4
+do okt. 14 17:08:42 2021: Router3: Router> enable
+do okt. 14 17:08:42 2021: Router3: Router# configure terminal
+do okt. 14 17:08:42 2021: Router3: Router(config)# interface GigabitEthernet0/1/0
+do okt. 14 17:08:44 2021: Router3: Router(config-if)# no shutdown
+do okt. 14 17:08:48 2021: Router3: Router(config-if)# ip address 192.168.0.4 255.255.255.0
+do okt. 14 17:08:49 2021: Router3: Router(config-if)# ip address 192.168.0.4 255.255.255.0
+do okt. 14 17:08:49 2021: Router3: Router(config-if)# exit
+do okt. 14 17:08:49 2021: Router3: Router(config)# router rip
+do okt. 14 17:08:51 2021: Router3: Router(config-router)# end
+do okt. 14 17:08:51 2021: Router3: Router# configure terminal
+do okt. 14 17:10:54 2021: Script Module stopping: File
+do okt. 14 17:10:54 2021: Exiting
+do okt. 14 17:10:54 2021: Saving options...
+do okt. 14 17:10:54 2021: Options saved.
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.resource
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.PTINTERNAL
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.PcSoftware
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.Marvel
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.clearTerminalAgent
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.ActivitySequencer
+do okt. 14 17:10:54 2021: Script Module stopping: net.netacad.cisco.ActivitySequenceEditor
+do okt. 14 17:10:54 2021: ExApp disconnecting: net.netacad.cisco.ptseplayer
+do okt. 14 17:10:54 2021: CPtmpServer stopped.

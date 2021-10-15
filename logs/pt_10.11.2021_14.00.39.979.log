@@ -1,0 +1,27 @@
+ma okt. 11 14:00:39 2021: Starting Cisco Packet Tracer 8.0.1.0064
+ma okt. 11 14:00:40 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 14:00:40 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 14:00:41 2021: engine/util/AnalyticsTracker.cpp(106):INFO  - setUsername - setting GA channel to NETSPACE: UA-56074537-2
+ma okt. 11 14:00:42 2021: Script Module starting: 
+ma okt. 11 14:00:42 2021: CPtmpServer started at port 39000
+ma okt. 11 14:00:42 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+ma okt. 11 14:00:42 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+ma okt. 11 14:00:43 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+ma okt. 11 14:00:43 2021: Script Module starting: net.netacad.cisco.Marvel
+ma okt. 11 14:00:43 2021: Script Module starting: net.netacad.cisco.PcSoftware
+ma okt. 11 14:00:43 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+ma okt. 11 14:00:43 2021: Script Module starting: net.netacad.cisco.resource
+ma okt. 11 14:00:43 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 14:00:49 2021: Script Module stopping: File
+ma okt. 11 14:00:49 2021: Exiting
+ma okt. 11 14:00:49 2021: Saving options...
+ma okt. 11 14:00:49 2021: Options saved.
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.resource
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.PTINTERNAL
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.PcSoftware
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.Marvel
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.clearTerminalAgent
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.ActivitySequencer
+ma okt. 11 14:00:49 2021: Script Module stopping: net.netacad.cisco.ActivitySequenceEditor
+ma okt. 11 14:00:49 2021: ExApp disconnecting: net.netacad.cisco.ptseplayer
+ma okt. 11 14:00:49 2021: CPtmpServer stopped.

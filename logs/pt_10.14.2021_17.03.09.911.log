@@ -1,0 +1,173 @@
+do okt. 14 17:03:09 2021: Starting Cisco Packet Tracer 8.0.1.0064
+do okt. 14 17:03:09 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:03:10 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:03:11 2021: engine/util/AnalyticsTracker.cpp(106):INFO  - setUsername - setting GA channel to NETSPACE: UA-56074537-2
+do okt. 14 17:03:12 2021: Script Module starting: 
+do okt. 14 17:03:12 2021: Opening file: /Users/brian/Cisco Packet Tracer 8.0.1/saves/Oefening 6 .pkt
+do okt. 14 17:03:12 2021: Changed device name:  to Server0
+do okt. 14 17:03:12 2021: Changed device name:  to Power Distribution Device0
+do okt. 14 17:03:12 2021: Changed device name:  to PC0
+do okt. 14 17:03:12 2021: Changed device name:  to Router0
+do okt. 14 17:03:12 2021: Changed device name:  to Switch0
+do okt. 14 17:03:12 2021: Changed device name:  to Switch1
+do okt. 14 17:03:12 2021: Changed device name:  to Switch2
+do okt. 14 17:03:12 2021: Changed device name:  to PC1
+do okt. 14 17:03:12 2021: Changed device name:  to PC2
+do okt. 14 17:03:12 2021: Changed device name:  to Server2
+do okt. 14 17:03:12 2021: Changed device name:  to Switch4
+do okt. 14 17:03:12 2021: Changed device name:  to PC5
+do okt. 14 17:03:12 2021: Router0: Router> enable
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router> enable
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 192.168.0.1 255.255.255.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router> enable
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Switch2: Switch> enable
+do okt. 14 17:03:12 2021: Switch2: Switch# configure terminal
+do okt. 14 17:03:12 2021: Switch2: Switch(config)# interface FastEthernet0/6
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# end
+do okt. 14 17:03:12 2021: Router0: Router# vlan database
+do okt. 14 17:03:12 2021: Router0: Router(vlan)# exit
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router> enable
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router> enable
+do okt. 14 17:03:12 2021: Router0: Router# configure terminal
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.25.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/1
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.27.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# exit
+do okt. 14 17:03:12 2021: Router0: Router(config)# interface GigabitEthernet0/0/2
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# ip address 172.26.0.1 255.255.0.0
+do okt. 14 17:03:12 2021: Router0: Router(config-if)# no shutdown
+do okt. 14 17:03:12 2021: Script Module stopping: File
+do okt. 14 17:03:12 2021: Script Module starting: File
+do okt. 14 17:03:12 2021: File opened successfully.
+do okt. 14 17:03:13 2021: CPtmpServer started at port 39000
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.Marvel
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.PcSoftware
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+do okt. 14 17:03:13 2021: Script Module starting: net.netacad.cisco.resource
+do okt. 14 17:03:13 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+do okt. 14 17:03:26 2021: Script Module stopping: File
+do okt. 14 17:03:26 2021: Exiting
+do okt. 14 17:03:26 2021: Saving options...
+do okt. 14 17:03:26 2021: Options saved.
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.resource
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.PTINTERNAL
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.PcSoftware
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.Marvel
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.clearTerminalAgent
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.ActivitySequencer
+do okt. 14 17:03:26 2021: Script Module stopping: net.netacad.cisco.ActivitySequenceEditor
+do okt. 14 17:03:27 2021: ExApp disconnecting: net.netacad.cisco.ptseplayer
+do okt. 14 17:03:27 2021: CPtmpServer stopped.

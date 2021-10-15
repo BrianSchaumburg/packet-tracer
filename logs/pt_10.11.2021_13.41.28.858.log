@@ -1,0 +1,44 @@
+ma okt. 11 13:41:28 2021: Starting Cisco Packet Tracer 8.0.1.0064
+ma okt. 11 13:41:28 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 13:41:29 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 13:41:30 2021: engine/util/AnalyticsTracker.cpp(106):INFO  - setUsername - setting GA channel to NETSPACE: UA-56074537-2
+ma okt. 11 13:41:31 2021: Script Module starting: 
+ma okt. 11 13:41:31 2021: CPtmpServer started at port 39000
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.Marvel
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.PcSoftware
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+ma okt. 11 13:41:31 2021: Script Module starting: net.netacad.cisco.resource
+ma okt. 11 13:41:31 2021: engine/IPC/CCep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cOpenHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cClosedHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cConnect.svg, Offset: 5 x 5, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cTargetX.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddDevice.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cInspect.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddPacket.svg, Offset: 5 x 5, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cResize.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cPencil.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: gui/Common/CursorBank.cpp(52):INFO  - Cursor: ../art/Cursors/cDrawingcross.svg, Offset: 8 x 8, Size: 32 x 32, DPR: 2
+ma okt. 11 13:41:35 2021: Changed device name:  to Server0
+ma okt. 11 13:41:35 2021: Changed device name:  to Power Distribution Device0
+ma okt. 11 13:41:35 2021: Created device: Power Distribution Device0 model: Power Distribution Device
+ma okt. 11 13:41:36 2021: Created device: Server0 model: Server-PT
+ma okt. 11 13:41:44 2021: Changed device name:  to Router0
+ma okt. 11 13:41:44 2021: Created device: Router0 model: ISR4331
+ma okt. 11 13:42:04 2021: Link created: Router0 GigabitEthernet0/0/0 to Server0 FastEthernet0, 8101
+ma okt. 11 13:42:17 2021: Script Module stopping: File
+ma okt. 11 13:42:17 2021: Exiting
+ma okt. 11 13:42:17 2021: Saving options...
+ma okt. 11 13:42:17 2021: Options saved.
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.resource
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.PTINTERNAL
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.PcSoftware
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.Marvel
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.clearTerminalAgent
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.ActivitySequencer
+ma okt. 11 13:42:17 2021: Script Module stopping: net.netacad.cisco.ActivitySequenceEditor
+ma okt. 11 13:42:17 2021: ExApp disconnecting: net.netacad.cisco.ptseplayer
+ma okt. 11 13:42:17 2021: CPtmpServer stopped.
